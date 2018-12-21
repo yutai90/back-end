@@ -1,0 +1,27 @@
+@charset "utf-8";
+*{margin:0;padding:0;font-family:"Lucida Grande","Microsoft YaHei","宋体","Verdana","Lucida","Arial","Helvetica","sans-serif";}
+html{}
+body{margin:auto;font-size:12px;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;}
+img{border:0;vertical-align:top;}
+ul,li,form,th,td,p,div,dl,dt,dd,h1,h2,h3,input{margin:0;padding:0;list-style:none;}
+textarea{resize:none;}
+a:link,a:visited{text-decoration:none;}
+.clear{float:none !important;height:0;margin:0;padding:0;overflow:hidden;clear:both;}
+.none{display:none;}
+.hand{cursor:pointer;}
+.left{float:left;}
+.right{float:right !important;}
+
+.MarAuto{margin-left:auto;margin-right:auto;}
+.MarT5{margin-top:5px;}
+.MarT8{margin-top:8px;}
+.MarT10{margin-top:10px;}
+.MarT15{margin-top:15px;}
+
+#wrap,.wrap{width:1180px;margin-left:auto;margin-right:auto;}
+@media screen and (max-width:1280px){
+#wrap,.wrap{width:1000px;}
+}
+/*2018-6-21 新增*/
+.ad_link{position:relative; display:block;}
+.ad_link .ad_tag{position:absolute; z-index:9; left:0; bottom:0; background:rgba(0,0,0,.35); font-size:14px; color:#b9b9b9; display:block; overflow:hidden;height:14px; line-height:14px; padding:4px 4px 3px 4px;font-weight:normal;}

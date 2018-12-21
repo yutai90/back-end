@@ -1,0 +1,103 @@
+/* CSS Document */
+body{line-height:1.5em;font-size:14px;color:#000;}
+.clear{clear:both;}
+a{color:#000;}
+.MarT12{margin-top:12px;}
+.MarT20{margin-top:20px;}
+.MarR20{margin-right:20px;}
+.main{float:left;}
+
+
+
+/*dt-nav strat*/
+.dt-nav{margin-top:15px; margin-bottom:15px; line-height:42px;}
+.dt-nav li{width:17.5%; float:left; text-align:center; background: no-repeat right;}
+.dt-nav li:first-child{width:12%; text-align:left; margin-right:3.5%;}
+.dt-nav .line_right{float:right; width:12%;}
+.dt-nav li img{margin-right:8px;}
+.dt-nav li a{font-size:16px; color:#666666;}
+/*dt-nav end*/
+
+/*site-nav strat*/
+.site-nav{background-color:#f7f7f7; height:40px; line-height:40px; font-size:14px; color:#7e7e7e;}
+.wrap{width:1200px; margin-left:auto; margin-right:auto;}
+.sn-left{float:left;}
+.sn-left a{padding-right:15px; color:#7e7e7e; float:left;}
+.sn-left a:first-child{background:url(http://code.nongji360.com/images/right_line.gif) no-repeat right;}
+
+.sn-container > ul{float:right;}
+.sn-container > ul li,.dt-public{float:left; border-left:1px solid #f7f7f7; border-right:1px solid #f7f7f7;}
+.sn-login,.sn-mobile{background:url(http://code.nongji360.com/images/2017/site_icon.png) no-repeat left; padding:0px 12px 0px 30px;}
+.sn-login{background-position:12px 12px;}
+.sn-login .login{color:#7e7e7e;}
+.sn-mobile{background-position:14px -28px; position:relative;}
+.dt-public{margin-right:15px; padding:0px 15px; position:relative;}
+.sn-mobile .sn-qrcode,.sn-sitemap .sn-menu,.dt-public .sn-qrcode{position:absolute;display:none;transition:0.3s;-webkit-transition:.5s;-moz-transition:.5s; padding:5px 0px; text-align:center;}
+.sn-mobile .sn-qrcode,.dt-public .sn-qrcode{width:130px;box-shadow:0 0 5px #aaa; background-color:#fff;}
+.sn-mobile .sn-qrcode{left:-12px;}
+.dt-public .sn-qrcode{left:-1px;}
+.sn-mobile:hover,.sn-sitemap:hover,.dt-public:hover{background-color:#fff; cursor:pointer; border-right:1px solid #e2e2e2; border-left:1px solid #e2e2e2;}
+.sn-mobile:hover .sn-qrcode,.sn-sitemap:hover .sn-menu,.dt-public:hover .sn-qrcode{display:block;}
+.sn-mobile .sn-qrcode span,.dt-public .sn-qrcode span{font-size:15px; height:20px; line-height:20px; display:block;}
+.sn-sitemap{padding:0px 20px 0px 12px; position:relative;}
+.sn-sitemap b{position:absolute; right:10px; top:19px;width:0;height:0;border-width:4px;border-style: solid dashed dashed;border-color:#bbb transparent transparent;font-size:0;line-height:0;}
+.sn-sitemap .sn-menu{width:500px; right:-1px; border:1px solid #e2e2e2; border-top:0px; background-color:#fff; z-index:999;}
+.sn-sitemap .sn-menu li{border:0px; width:16.6%; height:27px; line-height:27px;}
+/*site-nav end*/
+
+/*topMenu begin*/
+.topMenu{height:44px;line-height:42px;width:1180px;margin:0 auto}
+.topMenu_left{float:left;}
+.topMenu_right{float:right;}
+.topMenu_left a,.topMenu_right a{margin-right:8px;margin-left:7px;display:inline-block;min-width:40px;}
+.topMenu_right .login{background: no-repeat left;width:50px;float:left;text-align:right;}
+.backold{padding:0 5px;background-color:#FFF;border-left:1px solid #eeeeee;border-right:1px solid #eeeeee;height:42px;margin-top:2px;}
+/*topMenu end*/
+
+/*  */
+.website{margin-top:15px;}
+.website li{float:left;width:160px;margin-bottom:8px;margin-right:8px;text-align:center;overflow:hidden;}
+.website .nav_right{width:160px;text-align:right;margin-right:0;}
+
+.logo_menu{height:41px;width:1180px;margin:15px auto 0 auto;}
+.NewLive{float:right;}
+.NewLive a{line-height:41px;text-align:right;width:90px;margin-left:15px;}
+.iconMob{background:no-repeat 0 2px;padding-left:13px;}
+
+.w1000{width:1000px;margin-left:auto;margin-right:auto;}
+
+/*nav_new begin*/
+#nav_new{background:repeat-x;height:50px;width:1000px;margin:15px auto 0 auto;text-align:center;}
+#nav_new a,#nav_new span{line-height:50px;margin:0 9px;font-size:18px;color:#fff;display:inline-block;}
+/*nav_new end*/
+
+/*footer begin*/
+#friendLink{display:none;}
+/*footer end*/
+
+/*main-nav begin*/
+.main-nav{height:50px; background-color: #e0f7f0; line-height:50px;}
+.main-nav .nav-con a{font-size:16px; color: #eefffe; padding:0px 18px;}
+.main-nav .wrap a{padding:0 12px 0 13px;font-size:17px; color: #e3fff1;}
+/*main-nav end*/
+
+/*2017-6-28*/
+.logo-tech{background-color:#fbfbfb; border-top:1px solid #f0f0f0; height:80px; line-height:80px;}
+.logo-tech .wap{width:1180px; margin:0 auto;}
+.logo-tech .top_left h2{color: #b4f7c5; font-size:30px; float:left; line-height:78px;}
+.logo-img{font-size:30px; color: #b3f7b9; font-weight:bold;}
+.tech-menu{background-color: #b4f7cc; height:50px; line-height:50px;}
+.tech-menu a{color:#fff; font-size:20px; padding:0 36px;}
+
+/*2017-11-22*/
+.nodata-content{text-align:center; padding:90px 0;}
+
+@media all and (max-width:1280px){
+.topMenu,.logo_menu{width:1000px;}
+.tech-menu a{padding:0 24px;}
+.logo-tech .wap{width:1000px;}
+}
+@media all and (max-width: 640px){
+.site-nav,.dt-nav,.logo-tech,.main-nav{display:none;}
+
+}
