@@ -2,8 +2,8 @@ import requests
 import json
 
 def get_token():
-    APPID = "wx3ceb9e7639c54c75"
-    AppSecret = "58ca8dc9afd67aa4cd2b0fb054bbc46f"
+    APPID = "......."
+    AppSecret = ".........."
     token_url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid={}&secret={}".format(APPID, AppSecret)
     json_token = requests.get(token_url).json()
     access_token = json_token['access_token']
